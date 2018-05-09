@@ -2,37 +2,47 @@
     width: 500px;
     text-align: center;
     margin: 0 auto;
-    border: 2px solid #8d8a8a;
-    border-bottom: 0px;
+    border: 1px solid #2d2d2d;
+    padding: 15px;
     margin-top: 20px;
     font-family: sans-serif;
 }
+
 h1 {
      text-align: center;
-     background-color: #4a7d99;
+     font-family: Avant Garde, Avantgarde, Century Gothic, CenturyGothic, AppleGothic, sans-serif;
      padding: 30px 0px;
+     font-weight: 200;
      margin-top: 0px;
      color: whitesmoke;
+     background: #0f0c29;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-
+.avant{
+    font-family: Avant Garde, Avantgarde, Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+}
 .addItem{
     position: relative;
-    padding-bottom: 0px;
-    height: 30px;
+}
+.addbutton {
+    background-color: orange;
+    border: 0;
+    cursor: pointer;
+    font-size: 21px;
 }
 
-.addtext{
-    width: 80%;
+.addText{
+    width: 70%;
     height: 30px;
     padding: 5px;
     font-size: 20px;
-
+    border: 0.5px solid lightgrey;
 }
 
 .addItem button{
-    height: 25px;
-    width: 50px;
-    padding: 5px
+    height: 40px;
+    width: 80px;
 }
 
 ul {
@@ -44,15 +54,17 @@ ul {
 }
 
 li {
-    border-bottom: 1px solid #bfbfbf;
-    background-color: #d7d7d7;
+    border-left: 5px solid orange;
+    background-color: white;
     padding: 10px 0px;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
+    box-shadow: 2px 5px 4px lightgrey;
 }
 
 span{
     cursor: pointer;
     position: relative;
+    color: red;
     float: right;
     margin-right: 10px;
 }

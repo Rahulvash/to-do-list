@@ -17,6 +17,7 @@ export class AppComponent {
   }
   removeItem = function(index)
   {
-    this.item.splice(index,1);
+    this.items.splice(index,1);
+
   }
 }
